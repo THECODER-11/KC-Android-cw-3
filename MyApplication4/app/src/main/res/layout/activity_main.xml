@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/img"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="282dp"
+        android:layout_height="159dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="521dp"
+        android:gravity="center"
+        android:text="calculetor"
+        android:textColor="#0088FF"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/first_number"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="438dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="first number" />
+
+    <EditText
+        android:id="@+id/second_number"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="329dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="second number" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="94dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="204dp"
+        android:text="done!" />
+
+    <TextView
+        android:layout_width="282dp"
+        android:layout_height="159dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="28dp"
+        android:gravity="center"
+        android:text="total"
+        android:textColor="#0047FF"
+        android:textSize="40dp" />
+
+
+</RelativeLayout>
